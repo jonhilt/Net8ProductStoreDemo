@@ -4,9 +4,9 @@
 
 <PageTitle>Product Store</PageTitle>
 
-<form method="post" @formname="Search">
-    <input type="text" name="searchTerm" value="@SearchTerm"/>
-    <button>Search</button>
+<form method="post" @formname="Search" class="d-flex mb-4 gap-2">
+    <input type="text" name="searchTerm" value="@SearchTerm" class="form-control"/>
+    <button class="btn btn-primary">Search</button>
     <AntiforgeryToken/>
 </form>
 
