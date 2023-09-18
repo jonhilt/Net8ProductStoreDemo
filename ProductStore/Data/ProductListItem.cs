@@ -1,4 +1,4 @@
-﻿namespace ProductStore.Components.Pages;
+﻿namespace ProductStore.Data;
 
 public class ProductListItem
 {
